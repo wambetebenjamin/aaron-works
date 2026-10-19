@@ -10,7 +10,7 @@ import {
   Quote,
   Scale,
   ShieldCheck,
-  Sparkles,
+  UserRound,
   Users,
   Wallet,
 } from "lucide-react";
@@ -205,7 +205,7 @@ export default async function HomePage() {
             <article className="aw-flow aw-flow--freelancer">
               <div className="aw-flow__head">
                 <span className="aw-flow__icon aw-flow__icon--green">
-                  <Sparkles size={21} aria-hidden="true" />
+                  <UserRound size={21} aria-hidden="true" />
                 </span>
                 <div>
                   <h3>For freelancers</h3>
